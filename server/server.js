@@ -4,8 +4,7 @@ import cors from 'cors';
 
 // App Config
 const  PORT = process.env.PORT || 4000;
-const app = express();
-await connectDB();
+const app = express(); 
 
 // Middleware
 app.use(cors());
